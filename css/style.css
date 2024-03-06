@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mycrasual {
+    height: 92vh !important;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../img/art/bg4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact_form {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+
+.join {
+    visibility: visible !important;
+}
+
+.borStyle img {
+    width: 100% !important;
+}
+
+
+/* ======== Home Bg ======== */
+
+.display-1 {
+    font-weight: 500 !important;
+    line-height: 0.9;
+}
+
+.btn {
+    transition: all 0.3s;
+}
+
+.btnHover:hover {
+    background-color: #e7620a !important;
+}
+
+
+
+
+
+
+/* ================== About ================== */
+
+.about {
+    width: 100%;
+    height: auto;
+}
+
+.w-10 {
+    width: 20%;
+}
+
+.about img {
+    width: 500vh;
+    height: 30vh;
+    border-radius: 1rem;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* =================== Facuties =================== */
+
+h3 {
+    color: #44425A !important;
+}
+
+.fImage {
+    overflow: hidden !important;
+}
+
+.fImage img {
+    width: 100% !important;
+    transition: ease-in-out 0.5s;
+}
+
+.fImage:hover img {
+    transform: scale(1.1);
+}
+
+.shFaculties {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* ============= Our Departments ==================== */
+
+.cardDepartment:hover {
+    box-shadow: 2px 5px 15px rgb(202, 202, 202) !important;
+}
+
+
+/* ==================== Select Faculty ================= */
+
+#selectFaculty {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(../img/art/music.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contactLink {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    visibility: hidden !important;
+}
+
+.teacherCard:hover .contactLink {
+    visibility: visible !important;
+}
+
+.linkIcon:hover {
+    background-color: #fff;
+    color: #44425a !important;
+}
+
+
+/* =============== Our Blog ================= */
+
+.blogImage img {
+    transition: all ease-in-out 0.5s;
+}
+
+.blogImage:hover img {
+    transform: scale(1.1) !important;
+}
+
+.imageShadow {
+    background-image: linear-gradient(rgba(60, 66, 90, 0), rgba(60, 66, 90, 1)) !important;
+}
+
+
+
+
+.art-e {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    margin:100px auto 250px auto;
+}
+
+
+
+.art-e img {
+    width: 50%;
+    height:350px;
+    margin-top: 10vh;
+
+    
+}
+
+.art-e h1 {
+    font-family:truetype;
+    position: relative;
+    left:-350px;
+    top:-70px;
+    text-align: center;
+    font-weight: 600;
+    color: #FF6600;
+
+}
+
+
+.art-e h1 span {
+    text-decoration:underline;
+    color: #585f68;
+    font-size: 45px;
+}
+
+.art-e p {
+    font-family:woff;
+    font-size: 20px;
+    /* background-color:rgba(234, 32, 39,0.1) ; */
+    text-align: justify;
+    margin: 10px;
+    position: absolute;
+    width: 45%;
+    left:5vh;
+    color: #585f68;
+}
+
+
